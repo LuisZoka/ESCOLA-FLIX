@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(46, 0, 0);
+font-size: 88px;
+text-align: center;
+background-color: rgb(252, 31, 31);
+
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 0, 0);
+    text-align: center;
+}
+.filmes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nomes-filmes{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+.filme-cartaz{
+text-align: center;
+width: 400px 100px;
+padding: 10px;
+}
+.filmes{
+    text-align: center;
+
+}
+.preco-filmes{
+    color: gold;
+}
