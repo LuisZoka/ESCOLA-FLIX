@@ -1,17 +1,16 @@
 body{
     background-color: rgb(0, 0, 0);
-    
 }
-p{
+.cabecalho{
     color: rgb(46, 0, 0);
 font-size: 88px;
 text-align: center;
 background-color: rgb(252, 31, 31);
-font-family: monospace;
-border-radius: 500px;
+display: block;
+border-radius: 90px;
+font-family: 'Bebas Neue', sans-serif;
 
 }
-
 h2{
     color: rgb(255, 255, 255);
     background-color: rgb(250, 0, 0);
@@ -21,38 +20,44 @@ h2{
     text-align: center;
     display: flex;
     justify-content: center;
-    grid-area: auto;
 }
+
 .nomes-filmes{
-    font-size: 25px;
-    font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
+    display: block;
 }
 .filme-cartaz{
 text-align: center;
-width: 390px;
+width: 380px 100px;
 height: 600px;
-padding: 40px;
-align-content: center;
-border-radius: 80px;
+padding: 15px;
+border-radius: 40px;
 }
-
 .filmes{
     text-align: center;
 
 }
 .preco-filmes{
     color: gold;
-    font-size: 30px;
 }
-.textofilme{
+.link{
     text-align: center;
+    color: black;
+    background-color: rgb(252, 234, 71);
+    font-size: 20px;
+    display: block;
+    border-radius: 40px;
 }
 a{
-    color: rgb(0, 0, 0);
-    font-size: larger;
-    background-color: rgb(255, 251, 14);
-    border-radius: 5px;
+    color: aliceblue;
+}
 
+.informacoes{
+text-align: center;
+justify-content: center;
+align-content: center;
+color: aliceblue;
+font-size: 20px;
+font-family: 'Inter', sans-serif;
 }
